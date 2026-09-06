@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 0;
+}
+
+header {
+    background-color: #006064;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 1.5em;
+}
+
+.cta-section {
+    background: url('img/cta-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: #006064;
+    text-align: center;
+    padding: 100px 20px;
+    background-color: rgba(224, 247, 250, 0.9);
+    background-blend-mode: overlay;
+}
+
+.cta-section h1 {
+    font-size: 3.5em;
+    margin-bottom: 30px;
+}
+
+.cta-section p {
+    font-size: 1.2em;
+    margin: 0 0 30px 0;
+}
+
+.cta-section a {
+    background-color: #0288d1;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.cta-section a:hover {
+    background-color: #0277bd;
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 50px 20px;
+}
+
+.info-section img {
+    width: 400px;
+    height: auto;
+    max-width: 100%;
+    margin-right: 30px;
+    border-radius: 15px;
+}
+
+.info-section div {
+    max-width: 600px;
+}
+
+.info-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.info-section p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+
